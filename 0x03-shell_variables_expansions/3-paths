@@ -1,2 +1,2 @@
 #!/bin/bash
-DIRS=$(find . -$PATH d)
+echo $PATH | tr -s ":" "\n" | wc -l
